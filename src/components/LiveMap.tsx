@@ -1,4 +1,4 @@
-import { useState, useRef } from 'react';
+/* import { useState, useRef } from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import osm from './osm-providers';
@@ -24,3 +24,4 @@ const LiveMap = () => {
 };
 
 export default LiveMap;
+ */

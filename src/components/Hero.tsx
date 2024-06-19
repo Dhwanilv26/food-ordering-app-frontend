@@ -11,7 +11,6 @@ const Hero = () => {
 export default Hero;
  */
 
-import React from 'react';
 import CarouselSlider from './CarouselSlider';
 
 const Hero = () => {

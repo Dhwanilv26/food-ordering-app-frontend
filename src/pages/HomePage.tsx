@@ -4,7 +4,7 @@ import adimg from '../models/img2.png';
 import SearchBar, { SearchForm } from '@/components/SearchBar';
 import { useNavigate } from 'react-router-dom';
 import DataInfo from '@/components/DataInfo';
-import LiveMap from '@/components/LiveMap';
+// import LiveMap from '@/components/LiveMap';
 
 const HomePage: React.FC = () => {
   const navigate = useNavigate();
@@ -22,8 +22,6 @@ const HomePage: React.FC = () => {
           <SearchBar placeHolder='Search by City or Town' onSubmit={handleSearchSubmit} />
         </div>
       </div>
-
-      <LiveMap />
 
       <div className='mt-12'>
         <DataInfo

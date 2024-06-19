@@ -1,0 +1,12 @@
+.custom-progress {
+  width: 100%;
+  height: 20px;
+}
+
+.custom-progress::-webkit-progress-bar {
+  background-color: #f0f0f0;
+}
+
+.custom-progress::-webkit-progress-value {
+  background-color: #ff4d4d;
+}
